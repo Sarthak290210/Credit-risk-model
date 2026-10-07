@@ -1,0 +1,13 @@
+# Save this file as  .streamlit/config.toml  next to frontend.py
+# It keeps the app in its light theme even if the viewer's browser is in dark mode.
+
+[theme]
+base = "light"
+primaryColor = "#14283C"
+backgroundColor = "#F2F4F6"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#14283C"
+font = "sans serif"
+
+[client]
+toolbarMode = "minimal"

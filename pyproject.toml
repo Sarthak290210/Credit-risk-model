@@ -1,0 +1,32 @@
+[project]
+name = "credit-risk-model"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Sarthak290210", email = "sarthakpannu10@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.142.2",
+    "imbalanced-learn>=0.14.2",
+    "ipykernel>=7.4.0",
+    "joblib>=1.6.0",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.3",
+    "optuna>=5.0.0",
+    "pandas>=3.0.6",
+    "pydantic>=2.13.5",
+    "scikit-learn>=1.9.0",
+    "seaborn>=0.13.2",
+    "statsmodels>=0.15.0",
+    "streamlit>=1.65.0",
+    "xgboost>=3.4.1",
+]
+
+[project.scripts]
+credit-risk-model = "credit_risk_model:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"

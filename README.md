@@ -396,7 +396,6 @@ uvicorn app.main:app --reload
 
 **Sarthak Pannu**
 
-[![GitHub](https://img.shields.io/badge/GitHub-<your--username>-181717?logo=github)](https://github.com/<your-username>)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/<your-profile>)
+
 
 ⭐ If you found this project useful, consider giving it a star!
